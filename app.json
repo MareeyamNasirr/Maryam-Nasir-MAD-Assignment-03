@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Student Hub",
+    "slug": "student-hub-mad-assignment-2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F7FF"
+    },
+    "android": {
+      "package": "com.maryamnasir.studenthub",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#F4F7FF"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#F4F7FF"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "31798152-fcd0-4461-be16-bf4ba963c8e2"
+      }
+    }
+  }
+}
